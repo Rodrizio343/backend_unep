@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/varietals",
+      "handler": "varietals.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/varietals/count",
+      "handler": "varietals.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/varietals/:id",
+      "handler": "varietals.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/varietals",
+      "handler": "varietals.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/varietals/:id",
+      "handler": "varietals.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/varietals/:id",
+      "handler": "varietals.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
