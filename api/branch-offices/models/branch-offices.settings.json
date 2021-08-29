@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "branch_offices",
+  "info": {
+    "name": "Branch Offices"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "shippings",
+  "info": {
+    "name": "shippings",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "branch_offices": {
+      "collection": "branch-offices"
+    },
+    "provinces": {
+      "collection": "provinces"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/branch-offices",
+      "handler": "branch-offices.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/branch-offices/count",
+      "handler": "branch-offices.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/branch-offices/:id",
+      "handler": "branch-offices.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/branch-offices",
+      "handler": "branch-offices.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/branch-offices/:id",
+      "handler": "branch-offices.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/branch-offices/:id",
+      "handler": "branch-offices.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
